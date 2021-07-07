@@ -103,21 +103,6 @@ li {
   padding-bottom: 0.5px;
 }
 
-/* ----- Tag Pills ----- */
-.CodeMirror-line .span.cm-formatting-hashtag{
-	display: inline-block;
-	margin: 0px 0px;
-	padding: 2px 8px;
-	font-size: 12px;
-	text-decoration: none;
-	text-align: center;
-	border: none;
-	border-radius: 14px;
-	color: black;
-	background-color: var(--text-muted);
-	cursor: pointer;
-}
-
 .markdown-preview-view .task-list-item-checkbox {
   -webkit-appearance: none;
   box-sizing: border-box;
@@ -451,6 +436,21 @@ pre.line-numbers > code {
   display: block !important;
   padding-right: 0.8em !important;
   text-align: right !important;
+}
+
+/* ----- Tag Pills ----- */
+.CodeMirror-line .span.cm-formatting-hashtag{
+	display: inline-block;
+	margin: 0px 0px;
+	padding: 2px 8px;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	border-radius: 14px;
+	color: black;
+	background-color: var(--text-muted);
+	cursor: pointer;
 }
 
 /* ----- list bullets ----- */
