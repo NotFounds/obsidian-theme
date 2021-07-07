@@ -613,3 +613,24 @@ pre.line-numbers > code {
   color: var(--gray-1);
   font-size: 10px;
 }
+
+/* Quotes */
+.CodeMirror-line.HyperMD-quote span.cm-formatting-quote.cm-formatting-quote-1 {
+  position: relative;
+  color: transparent;
+}
+.CodeMirror-line.HyperMD-quote span.cm-formatting-quote.cm-formatting-quote-1::before {
+  content: " ";
+  position: absolute;
+  border-left: solid 2px var(--aqua);
+}
+
+.CodeMirror-line.HyperMD-quote span.cm-formatting-quote.cm-formatting-quote-2 {
+  position: relative;
+  color: transparent;
+}
+.CodeMirror-line.HyperMD-quote span.cm-formatting-quote.cm-formatting-quote-2::before {
+  content: " ";
+  position: absolute;
+  border-left: solid 2px var(--aqua);
+}
