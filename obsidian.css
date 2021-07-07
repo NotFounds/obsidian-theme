@@ -468,7 +468,7 @@ pre.line-numbers > code {
   font-size: 16px;
 }
 
-/* Ordered list number */
+/* ----- Ordered list number ----- */
 .CodeMirror-line span.cm-formatting-list-ol {
   color: var(--aqua);
 }
@@ -614,7 +614,7 @@ pre.line-numbers > code {
   font-size: 10px;
 }
 
-/* Quotes */
+/* ----- Quotes ----- */
 .CodeMirror-line.HyperMD-quote span.cm-formatting-quote.cm-formatting-quote-1 {
   position: relative;
   color: transparent;
@@ -633,4 +633,9 @@ pre.line-numbers > code {
   content: " ";
   position: absolute;
   border-left: solid 2px var(--aqua);
+}
+
+/* ----- Line numbers ----- */
+.CodeMirror-linenumber {
+  font-family: 'Monaco';
 }
