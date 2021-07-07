@@ -461,11 +461,11 @@ pre.line-numbers > code {
 .CodeMirror-line span.cm-formatting-list-ul:after {
   content: "•";
   position: absolute;
-  top: -4px;
+  top: 0px;
   left: -2px;
   color: var(--aqua);
   font-family: 'Avenir Next';
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* ----- bold text ----- */
