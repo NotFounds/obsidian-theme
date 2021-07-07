@@ -439,18 +439,34 @@ pre.line-numbers > code {
 }
 
 /* ----- Tag Pills ----- */
-.CodeMirror-line .span.cm-formatting-hashtag{
-	display: inline-block;
-	margin: 0px 0px;
-	padding: 2px 8px;
-	font-size: 12px;
-	text-decoration: none;
-	text-align: center;
-	border: none;
-	border-radius: 14px;
-	color: black;
-	background-color: var(--text-muted);
-	cursor: pointer;
+.CodeMirror-line span.cm-hashtag.cm-hashtag-begin {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding-left: 8px;
+  padding-right: 2px;
+}
+.CodeMirror-line span.cm-hashtag.cm-hashtag-end {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-right: 8px;
+}
+.CodeMirror-line span.cm-hashtag {
+  background-color: var(--text-muted);
+  padding: 2px 0;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.markdown-preview-view a.tag {
+  border-radius: 12px;
+  padding: 2px 8px;
+  background-color: var(--text-muted);
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.markdown-preview-view a.tag:hover {
+  background-color: var(--text-faint);
 }
 
 /* ----- list bullets ----- */
