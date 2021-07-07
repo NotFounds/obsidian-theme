@@ -468,6 +468,11 @@ pre.line-numbers > code {
   font-size: 16px;
 }
 
+/* Ordered list number */
+.CodeMirror-line span.cm-formatting-list-ol {
+  color: var(--aqua);
+}
+
 /* ----- bold text ----- */
 .CodeMirror-line span.cm-strong {
   font-weight: 700;
