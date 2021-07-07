@@ -38,7 +38,7 @@
   --red: #e06c75;
   --orange: #d19a66;
   --green: #98c379;
-  --aqua: #56b6c2;
+  --aqua: #4aa8fc;
   --purple: #c678dd;
   --blue: #61afef;
   --yellow: #e5c07b;
@@ -85,7 +85,7 @@
   --green: #4ea24c;
   --blue: #3d74f6;
   --purple: #a625a4;
-  --aqua: #0084bc;
+  --aqua: #4aaaff;
   --yellow: #e35649;
   --orange: #986800;
 }
@@ -455,5 +455,20 @@ pre.line-numbers > code {
   display: block !important;
   padding-right: 0.8em !important;
   text-align: right !important;
+}
+
+/* ----- list bullets ----- */
+.CodeMirror-line span.cm-formatting-list-ul {
+  color: transparent;
+  position: relative;
+}
+.CodeMirror-line span.cm-formatting-list-ul:after {
+  content: "•";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  color: var(--aqua);
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
